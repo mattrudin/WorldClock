@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Clock from './components/Clock/Clock';
+import ClockTile from './components/ClockTile/ClockTile';
 
-class App extends Component {
+class App extends React.Component{
   render() {
     return (
       <div className="App">
-        <Clock />
-        <Clock />
+        <ClockTile />
+        <ClockTile />
       </div>
     );
   }
