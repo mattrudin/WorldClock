@@ -1,4 +1,6 @@
 .clocktile {
 	border:5px solid white;
 	border-radius:5%;
+	padding: 5px;
+	margin: 20px;
 }
