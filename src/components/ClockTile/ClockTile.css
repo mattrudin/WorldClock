@@ -1,6 +1,8 @@
 .clocktile {
+	float: left;
+	width: 30%;
+	padding: 5px;
 	border:5px solid white;
 	border-radius:5%;
-	padding: 5px;
-	margin: 20px;
+	margin: 1%;
 }
