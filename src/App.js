@@ -8,6 +8,7 @@ class App extends React.Component{
       <div className="App">
         <ClockTile className="clocktile" />
         <ClockTile className="clocktile" />
+        <ClockTile className="clocktile" />
       </div>
     );
   }
