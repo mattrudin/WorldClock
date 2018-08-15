@@ -7,7 +7,7 @@ class ClockTile extends React.Component{
 		super(props);
 		this.state = {
 			time: new Date(),
-			value: ''
+			value: 0
 		};
 		this.handleChange = this.handleChange.bind(this);
 	}
@@ -39,7 +39,7 @@ class ClockTile extends React.Component{
 		const minutes = now.getMinutes();
 		const minutesDegrees = ((minutes/60)*360) + 90;
 		const minuteHandStyle = {transform: `rotate(${minutesDegrees}deg)`};  
-		const hours = now.getHours();
+		const hours = now.getHours() + this.state.value;
 		const hoursDegrees = ((hours/12)*360) + 90;
 		const hourHandStyle = {transform: `rotate(${hoursDegrees}deg)`};
 		return(
@@ -47,7 +47,8 @@ class ClockTile extends React.Component{
 				<Clock 	secondHand={secondHandStyle}
 						minuteHand={minuteHandStyle}
 						hourHand={hourHandStyle} />
-				<input />
+				<input 	placeholder="Standard is UTC"
+						onChange={this.handleChange} />
 			</div>
 		);
 	}
