@@ -13,8 +13,7 @@ Tags: *reactJS*, *CSS*
 
 
 ## 1. Instructions
-
-
+Make a world clock app with three independend clock components. The clocks should show the current time, with a given dynamic user input in hours. For seperation of concerns reasen, use the container component pattern.  
 
 ## 2. Lessons learned
 ### Refs and the DOM
