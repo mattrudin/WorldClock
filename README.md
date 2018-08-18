@@ -8,6 +8,8 @@ Tags: *reactJS*, *CSS*
 
 [1. Instructions](#1-instructions/) 
 
+The app can be viewed [here](https://mattrudin.github.io/WorldClock/).  
+
 [2. Lessons learned](#2-lessons-learned)
 
 
